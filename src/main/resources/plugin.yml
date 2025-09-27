@@ -1,0 +1,22 @@
+name: AICerebras
+main: com.ihsannoob.aiplugin.AiPlugin
+version: 1.1.0
+api-version: "1.20"
+author: Ihsannoob
+commands:
+  ai:
+    description: Interact with the AI (chat/reload/view/export/clear)
+    usage: /ai chat <message> | /ai view | /ai export | /ai clear | /ai reload
+permissions:
+  ai.reload:
+    description: Allows reloading the AI plugin config
+    default: op
+  ai.history.view:
+    description: Allows viewing your AI history via GUI
+    default: true
+  ai.history.export:
+    description: Allows exporting your AI history to a JSON file
+    default: true
+  ai.history.clear:
+    description: Allows clearing your AI history
+    default: true

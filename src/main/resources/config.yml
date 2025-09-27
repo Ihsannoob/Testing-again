@@ -1,0 +1,14 @@
+# Cerebras / Llama config
+api_key: "REPLACE_WITH_YOUR_API_KEY"
+# Endpoint: ganti sesuai dokumentasi Cerebras (placeholder)
+endpoint: "https://api.cerebras.net/v1/generate"
+model: "llama-3.3-70b"
+
+# Generation options
+max_tokens: 512
+timeout_seconds: 30
+context_messages: 8
+
+# GUI / export settings
+view_messages: 20
+export_max_messages: 1000
